@@ -1,0 +1,60 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family: 'Poltawski Nowy', serif;
+  background: #9abd8d;
+  color: #0e100e !important;
+}
+
+
+#contenedor-destacadas{
+  margin-top: 6rem;
+}
+
+.badge{
+  background: #562f2a !important;
+}
+
+.cita{
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+
+.img-destacada{
+  max-height: 100%;
+}
+
+#lanzamiento-spacex{
+  padding-top: 4rem;
+}
+
+#fecha-lanzamiento{
+  font-size: .8em;
+}
+
+.titular{
+  font-size: 1.3rem;
+  padding-top: .6rem;
+}
+
+#lanzamiento{
+  margin-top: 2rem;
+}
+
+.noticia{
+  height: 20rem;
+  margin: .3rem;
+}
+
+#contenedor-titulares{
+  padding-top: 8rem;
+}
+
+.page-footer{
+  border-top: solid 1px black;
+  margin-top: 2rem;
+}
+

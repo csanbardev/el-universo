@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="javascript/script.js"></script>
+  <title>El Universo</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="1">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#contenedor-destacadas">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#lanzamiento-spacex">SpaceX</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#titulares-lanzamiento">Titulares</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container text-center mt-4">
+
+
+    <div class="container" id="contenedor-destacadas">
+      <!-- IMAGENES DESTACADAS DE LA NASA -->
+      <div id="destacadas" class="carousel slide mt-4" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#destacadas" data-slide-to="0" class="active"></li>
+          <li data-target="#destacadas" data-slide-to="1"></li>
+          <li data-target="#destacadas" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+          <!-- Los datos de la API se insertan aquí -->
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#destacadas" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#destacadas" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+
+      <!-- TEXTO DE LA CITA -->
+      <div class="container text-center cita">
+
+        <blockquote class="blockquote">
+          <p>La imaginación del universo siempre permanece más ancha que nuestra imaginación humana.</p>
+          <footer class="blockquote-footer">Julie J. Morley</footer>
+        </blockquote>
+      </div>
+
+
+
+      <!-- ÚLTIMO LANZAMIENTO SPACEX -->
+      <div id="lanzamiento-spacex" class="container text-center">
+        <h2>Último lanzamiento de SpaceX</h2>
+        <div id="lanzamiento" class="card mx-auto shadow" style="width:400px; padding: 3rem;">
+          <img id="parche-lanzamiento" class="card-img-top" src="" alt="Card image">
+          <div class="card-body">
+            <h4 id="nombre-lanzamiento" class="card-title">John Doe</h4>
+            <p id="exito-lanzamiento" class="card-text">Some example text.</p>
+            <p id="fecha-lanzamiento" class="card-text badge badge-primary">Some example text.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- TITULARES DEL LANZAMIENTO -->
+    <div id="contenedor-titulares" class="container text-center">
+
+      <h2>Titulares del lanzamiento</h2>
+      <div id="titulares-lanzamiento" class="row text-center">
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2023 Copyright:
+        <a href="/"> El Universo.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+</body>
+
+
+</html>
